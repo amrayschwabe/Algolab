@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="1._"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\config\;CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\config\support\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add option="-DCGAL_USE_CORE=1"/>
+					<Add directory="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+					<Add directory="/usr/local/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add option="-DCGAL_USE_CORE=1"/>
+					<Add directory="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+					<Add directory="/usr/local/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/amrayschwabe/Documents/ETH/Master/1.\ Semester/AlgoLab/week4/HikingMaps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGALConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGALExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGALExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGALLibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_Common.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_CoreExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_CoreExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_CoreLibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_CreateSingleSourceCGALProgram.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_SetupBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_TweakFindBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_VersionUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_add_test.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_display_flags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/UseCGAL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps/../../../../../../../../../usr/local/lib/cmake/CGAL/config/support/CGAL_test_cpp_version.cpp">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\usr\local\lib\cmake\CGAL\config\support\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

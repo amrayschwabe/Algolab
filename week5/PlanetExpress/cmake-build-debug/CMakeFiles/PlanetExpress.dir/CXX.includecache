@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week5/PlanetExpress/main.cpp
+iostream
+-
+vector
+-
+climits
+-
+boost/config.hpp
+-
+iostream
+-
+fstream
+-
+boost/graph/graph_traits.hpp
+-
+boost/graph/adjacency_list.hpp
+-
+boost/graph/dijkstra_shortest_paths.hpp
+-
+boost/property_map/property_map.hpp
+-
+

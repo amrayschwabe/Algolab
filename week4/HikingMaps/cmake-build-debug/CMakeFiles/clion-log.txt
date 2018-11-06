@@ -1,0 +1,61 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps"
+-- The C compiler identification is AppleClang 10.0.0.10001044
+-- The CXX compiler identification is AppleClang 10.0.0.10001044
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- __cplusplus is 199711
+-- Boost version: 1.67.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   chrono
+--   date_time
+--   atomic
+-- Boost include dirs: /usr/local/include
+-- Boost libraries:    /usr/local/lib/libboost_thread-mt.dylib;/usr/local/lib/libboost_system-mt.dylib;/usr/local/lib/libboost_chrono-mt.dylib;/usr/local/lib/libboost_date_time-mt.dylib;/usr/local/lib/libboost_atomic-mt.dylib
+-- Build type: Debug
+-- USING CXXFLAGS = ' -g'
+-- USING EXEFLAGS = ' '
+-- Targetting Unix Makefiles
+-- Using /Library/Developer/CommandLineTools/usr/bin/c++ compiler.
+-- DARWIN_VERSION=17
+-- Mac Leopard detected
+-- Requested component: Core
+-- Boost version: 1.67.0
+-- Found the following Boost libraries:
+--   thread
+--   system
+--   chrono
+--   date_time
+--   atomic
+-- Requested component: MPFR
+-- Requested component: GMP
+CMake Warning at /usr/local/lib/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake:32 (message):
+  =======================================================================
+
+  CGAL performance notice:
+
+  The variable CMAKE_BUILD_TYPE is set to "Debug".  For performance reasons,
+  you should set CMAKE_BUILD_TYPE to "Release".
+
+  Set CGAL_DO_NOT_WARN_ABOUT_CMAKE_BUILD_TYPE to TRUE if you want to disable
+  this warning.
+
+  =======================================================================
+Call Stack (most recent call first):
+  CMakeLists.txt:9999 (CGAL_run_at_the_end_of_configuration)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week4/HikingMaps

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week5/Boats/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+climits
+-
+
