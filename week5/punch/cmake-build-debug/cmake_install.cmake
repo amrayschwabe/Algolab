@@ -1,4 +1,4 @@
-# Install script for directory: /Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week5/punch2
+# Install script for directory: /Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week5/punch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week5/punch2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week5/punch/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

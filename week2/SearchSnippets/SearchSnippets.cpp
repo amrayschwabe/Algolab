@@ -165,6 +165,7 @@ void testcasefunction(){
 }
 
 int main() {
+	ios_base::sync_with_stdio(false);
     int nr_testcases;
     cin >> nr_testcases;
     for(int i = 0; i< nr_testcases; i++){
