@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab
 CMAKE_BINARY_DIR = "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week12/hongkong"
 
 #=============================================================================
-# Target rules for target CMakeFiles/hongkong.dir
+# Target rules for target CMakeFiles/hong_kong_sol.dir
 
 # All Build rule for target.
-CMakeFiles/hongkong.dir/all:
-	$(MAKE) -f CMakeFiles/hongkong.dir/build.make CMakeFiles/hongkong.dir/depend
-	$(MAKE) -f CMakeFiles/hongkong.dir/build.make CMakeFiles/hongkong.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week12/hongkong/CMakeFiles" --progress-num=1,2 "Built target hongkong"
-.PHONY : CMakeFiles/hongkong.dir/all
+CMakeFiles/hong_kong_sol.dir/all:
+	$(MAKE) -f CMakeFiles/hong_kong_sol.dir/build.make CMakeFiles/hong_kong_sol.dir/depend
+	$(MAKE) -f CMakeFiles/hong_kong_sol.dir/build.make CMakeFiles/hong_kong_sol.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week12/hongkong/CMakeFiles" --progress-num=3,4 "Built target hong_kong_sol"
+.PHONY : CMakeFiles/hong_kong_sol.dir/all
 
 # Include target in all.
-all: CMakeFiles/hongkong.dir/all
+all: CMakeFiles/hong_kong_sol.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hongkong.dir/rule: cmake_check_build_system
+CMakeFiles/hong_kong_sol.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week12/hongkong/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hongkong.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hong_kong_sol.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week12/hongkong/CMakeFiles" 0
-.PHONY : CMakeFiles/hongkong.dir/rule
+.PHONY : CMakeFiles/hong_kong_sol.dir/rule
 
 # Convenience name for target.
-hongkong: CMakeFiles/hongkong.dir/rule
+hong_kong_sol: CMakeFiles/hong_kong_sol.dir/rule
 
-.PHONY : hongkong
-
-# clean rule for target.
-CMakeFiles/hongkong.dir/clean:
-	$(MAKE) -f CMakeFiles/hongkong.dir/build.make CMakeFiles/hongkong.dir/clean
-.PHONY : CMakeFiles/hongkong.dir/clean
+.PHONY : hong_kong_sol
 
 # clean rule for target.
-clean: CMakeFiles/hongkong.dir/clean
+CMakeFiles/hong_kong_sol.dir/clean:
+	$(MAKE) -f CMakeFiles/hong_kong_sol.dir/build.make CMakeFiles/hong_kong_sol.dir/clean
+.PHONY : CMakeFiles/hong_kong_sol.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hong_kong_sol.dir/clean
 
 .PHONY : clean
 
@@ -834,6 +834,43 @@ CMakeFiles/ContinuousConfigure.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/ContinuousConfigure.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hong_kong.dir
+
+# All Build rule for target.
+CMakeFiles/hong_kong.dir/all:
+	$(MAKE) -f CMakeFiles/hong_kong.dir/build.make CMakeFiles/hong_kong.dir/depend
+	$(MAKE) -f CMakeFiles/hong_kong.dir/build.make CMakeFiles/hong_kong.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week12/hongkong/CMakeFiles" --progress-num=1,2 "Built target hong_kong"
+.PHONY : CMakeFiles/hong_kong.dir/all
+
+# Include target in all.
+all: CMakeFiles/hong_kong.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hong_kong.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week12/hongkong/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hong_kong.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/amrayschwabe/Documents/ETH/Master/1. Semester/AlgoLab/week12/hongkong/CMakeFiles" 0
+.PHONY : CMakeFiles/hong_kong.dir/rule
+
+# Convenience name for target.
+hong_kong: CMakeFiles/hong_kong.dir/rule
+
+.PHONY : hong_kong
+
+# clean rule for target.
+CMakeFiles/hong_kong.dir/clean:
+	$(MAKE) -f CMakeFiles/hong_kong.dir/build.make CMakeFiles/hong_kong.dir/clean
+.PHONY : CMakeFiles/hong_kong.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hong_kong.dir/clean
 
 .PHONY : clean
 

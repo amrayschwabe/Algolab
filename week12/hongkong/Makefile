@@ -122,17 +122,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hongkong
+# Target rules for targets named hong_kong_sol
 
 # Build rule for target.
-hongkong: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hongkong
-.PHONY : hongkong
+hong_kong_sol: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hong_kong_sol
+.PHONY : hong_kong_sol
 
 # fast build rule for target.
-hongkong/fast:
-	$(MAKE) -f CMakeFiles/hongkong.dir/build.make CMakeFiles/hongkong.dir/build
-.PHONY : hongkong/fast
+hong_kong_sol/fast:
+	$(MAKE) -f CMakeFiles/hong_kong_sol.dir/build.make CMakeFiles/hong_kong_sol.dir/build
+.PHONY : hong_kong_sol/fast
 
 #=============================================================================
 # Target rules for targets named ContinuousCoverage
@@ -434,6 +434,19 @@ ContinuousConfigure/fast:
 .PHONY : ContinuousConfigure/fast
 
 #=============================================================================
+# Target rules for targets named hong_kong
+
+# Build rule for target.
+hong_kong: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hong_kong
+.PHONY : hong_kong
+
+# fast build rule for target.
+hong_kong/fast:
+	$(MAKE) -f CMakeFiles/hong_kong.dir/build.make CMakeFiles/hong_kong.dir/build
+.PHONY : hong_kong/fast
+
+#=============================================================================
 # Target rules for targets named Nightly
 
 # Build rule for target.
@@ -498,32 +511,59 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-hongkong.o: hongkong.cpp.o
+hong_kong.o: hong_kong.cpp.o
 
-.PHONY : hongkong.o
+.PHONY : hong_kong.o
 
 # target to build an object file
-hongkong.cpp.o:
-	$(MAKE) -f CMakeFiles/hongkong.dir/build.make CMakeFiles/hongkong.dir/hongkong.cpp.o
-.PHONY : hongkong.cpp.o
+hong_kong.cpp.o:
+	$(MAKE) -f CMakeFiles/hong_kong.dir/build.make CMakeFiles/hong_kong.dir/hong_kong.cpp.o
+.PHONY : hong_kong.cpp.o
 
-hongkong.i: hongkong.cpp.i
+hong_kong.i: hong_kong.cpp.i
 
-.PHONY : hongkong.i
+.PHONY : hong_kong.i
 
 # target to preprocess a source file
-hongkong.cpp.i:
-	$(MAKE) -f CMakeFiles/hongkong.dir/build.make CMakeFiles/hongkong.dir/hongkong.cpp.i
-.PHONY : hongkong.cpp.i
+hong_kong.cpp.i:
+	$(MAKE) -f CMakeFiles/hong_kong.dir/build.make CMakeFiles/hong_kong.dir/hong_kong.cpp.i
+.PHONY : hong_kong.cpp.i
 
-hongkong.s: hongkong.cpp.s
+hong_kong.s: hong_kong.cpp.s
 
-.PHONY : hongkong.s
+.PHONY : hong_kong.s
 
 # target to generate assembly for a file
-hongkong.cpp.s:
-	$(MAKE) -f CMakeFiles/hongkong.dir/build.make CMakeFiles/hongkong.dir/hongkong.cpp.s
-.PHONY : hongkong.cpp.s
+hong_kong.cpp.s:
+	$(MAKE) -f CMakeFiles/hong_kong.dir/build.make CMakeFiles/hong_kong.dir/hong_kong.cpp.s
+.PHONY : hong_kong.cpp.s
+
+hong_kong_sol.o: hong_kong_sol.cpp.o
+
+.PHONY : hong_kong_sol.o
+
+# target to build an object file
+hong_kong_sol.cpp.o:
+	$(MAKE) -f CMakeFiles/hong_kong_sol.dir/build.make CMakeFiles/hong_kong_sol.dir/hong_kong_sol.cpp.o
+.PHONY : hong_kong_sol.cpp.o
+
+hong_kong_sol.i: hong_kong_sol.cpp.i
+
+.PHONY : hong_kong_sol.i
+
+# target to preprocess a source file
+hong_kong_sol.cpp.i:
+	$(MAKE) -f CMakeFiles/hong_kong_sol.dir/build.make CMakeFiles/hong_kong_sol.dir/hong_kong_sol.cpp.i
+.PHONY : hong_kong_sol.cpp.i
+
+hong_kong_sol.s: hong_kong_sol.cpp.s
+
+.PHONY : hong_kong_sol.s
+
+# target to generate assembly for a file
+hong_kong_sol.cpp.s:
+	$(MAKE) -f CMakeFiles/hong_kong_sol.dir/build.make CMakeFiles/hong_kong_sol.dir/hong_kong_sol.cpp.s
+.PHONY : hong_kong_sol.cpp.s
 
 # Help Target
 help:
@@ -532,7 +572,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... hongkong"
+	@echo "... hong_kong_sol"
 	@echo "... ContinuousCoverage"
 	@echo "... ContinuousTest"
 	@echo "... ContinuousBuild"
@@ -558,14 +598,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... NightlyMemoryCheck"
 	@echo "... ContinuousConfigure"
+	@echo "... hong_kong"
 	@echo "... Nightly"
 	@echo "... NightlyStart"
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... hongkong.o"
-	@echo "... hongkong.i"
-	@echo "... hongkong.s"
+	@echo "... hong_kong.o"
+	@echo "... hong_kong.i"
+	@echo "... hong_kong.s"
+	@echo "... hong_kong_sol.o"
+	@echo "... hong_kong_sol.i"
+	@echo "... hong_kong_sol.s"
 .PHONY : help
 
 

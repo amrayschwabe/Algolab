@@ -16,7 +16,8 @@ if ( CGAL_FOUND )
 
   include( CGAL_CreateSingleSourceCGALProgram )
 
-  create_single_source_cgal_program( "hongkong.cpp" )
+  create_single_source_cgal_program( "hong_kong.cpp" )
+  create_single_source_cgal_program( "hong_kong_sol.cpp" )
 
 else()
   

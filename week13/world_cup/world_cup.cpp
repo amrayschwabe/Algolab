@@ -138,7 +138,7 @@ void testcase(){
         }
     }
 
-    //for every warehouse save in how many contour lines they are
+    //for every stadium save in how many contour lines they are
     vector<set<int> > sinside(nr_stadium);
     for(int i = 0; i < nr_stadium; ++i){
         for(int j = 0; j < relevantlength; ++j){
